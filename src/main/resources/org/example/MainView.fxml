@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/24.0.2"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.example.MainController">
+    <Button text="Wczytaj dokument" onAction="#onLoadDocumentClick"/>
+</StackPane>
